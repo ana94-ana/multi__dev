@@ -6,12 +6,12 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'Home',
       component: () => import('../views/Pages/Home.vue')
     },
     {
       path: '/ourwork',
-      name: 'ourwork',
+      name: 'Ourwork',
       component: () => import('../views/Pages/OurWork.vue')
     },
     {
@@ -21,6 +21,7 @@ const router = createRouter({
     },
     {
       path: '/services',
+      name: 'Services',
       component: () => new Promise(resolve => resolve(defineComponent(RouterView))),
       children: [
         {
@@ -38,6 +39,7 @@ const router = createRouter({
     },
     {
       path: '/blog',
+      name: 'Blog',
       component: () => new Promise(resolve => resolve(defineComponent(RouterView))),
       children: [
         {

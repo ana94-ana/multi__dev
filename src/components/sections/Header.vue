@@ -1,3 +1,24 @@
+<script setup>
+
+</script>
 <template>
-    <h1>//////////</h1>
+    <div class="flex flex-col justify-between md:flex-row bg-indigo-800/80 text-white h-20 w-auto">
+        <div class="flex w-full justify-start w-auto items-center ml-9">
+            <img src="../../assets/images/Isolation_Mode.svg">
+        </div>
+        <div class="flex w-auto my-6 ">
+            <div class="flex flex-row space-x-10  ">
+                <button>Home</button>
+                <button class="flex flex-row items-center">Servises <img src="../../assets/images/qveda isari.svg" class="mx-2.5"/></button>
+                <button>Out Work</button>
+                <button>Blog</button>
+
+            </div>
+
+        </div>
+        <div class="flex flex-row my-4 bg-yellow-400 h-10  rounded-full mr-9 ">
+        <button class="flex items-center w-32 justify-center ">Let's Talk </button>
+        <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
+    </div>  
+    </div>
 </template>
