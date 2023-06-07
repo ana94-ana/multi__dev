@@ -3,7 +3,7 @@
 </script>
 <template>
     <div class="flex flex-row justify-between md:flex-row bg-indigo-800/80 text-white h-20 w-auto">
-        <div class="flex w-full justify-start w-auto items-center ml-9">
+        <div class="flex w-auto justify-start w-auto items-center ml-9">
             <img src="../../assets/images/Isolation_Mode.svg">
         </div>
         <div class="flex w-auto my-6 ">

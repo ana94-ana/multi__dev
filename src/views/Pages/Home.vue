@@ -38,15 +38,17 @@ import mainLayout from '../../layouts/mainLayout.vue';
             </div>
         </div>
         <div>
-            <div class="flex flex-col mx-auto items-center w-1/2 space-y-5">
+            <div class="flex flex-col mx-auto w-1/4 items-center  space-y-5">
                 <h1 class="text-2xl font-bold">Your Dedicated Web Design & Development Team</h1>
                 <p class="break-all">We are small team of experts that have been building on the internet for over a decade.
                     We are passionate about helping businesses thrive online and creating user-focused websites that drive
                     real results.</p>
             </div>
-            <div class="flex flex-row  bg-indigo-600/75 w-1/2 mx-auto items-center ">
-                <div>
-                    <img src="../../assets/images/custom.icon.svg" />
+            <div class="flex flex-row w-3/5 bg-indigo-600/75 mx-auto items-center rounded-lg">
+                <div class="flex items-center flex-col w-auto">
+                    <div>
+                        <img src="../../assets/images/custom.icon.svg" />
+                    </div>
                     <h3> Custom Websites </h3>
                     <p>Whether you’re looking to build a custom
                         marketing website or the next Twitter we can
@@ -55,9 +57,12 @@ import mainLayout from '../../layouts/mainLayout.vue';
                         <button class="flex items-center w-32 justify-center ">Learn More </button>
                         <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
                     </div>
-                </div>
-                <div>
-                    <img src="../../assets/images/search.icon.svg" />
+                </div> 
+                <hr class="w-1 h-36 mx-auto my-8 bg-gray-200  ">  
+                <div class="flex items-center flex-col w-auto">
+                    <div>
+                        <img src="../../assets/images/search.icon.svg" />
+                    </div>
                     <h3> Custom Websites </h3>
                     <p>Whether you’re looking to build a custom
                         marketing website or the next Twitter we can

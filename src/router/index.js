@@ -25,7 +25,7 @@ const router = createRouter({
       component: () => new Promise(resolve => resolve(defineComponent(RouterView))),
       children: [
         {
-          path: '',
+          path: ':id',
           name: 'Custom',
           component: () => import('../views/Pages/Custom.vue')
         },

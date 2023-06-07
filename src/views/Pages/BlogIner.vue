@@ -4,6 +4,6 @@ import mainLayout from '../../layouts/mainLayout.vue';
 
 <template>
   <mainLayout>
- 
+    <h1>gdchbsdhcjbdahcbjdc</h1>
  </mainLayout>
 </template>
