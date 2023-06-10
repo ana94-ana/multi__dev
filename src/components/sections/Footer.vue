@@ -9,9 +9,7 @@
         <img src="../../assets/images/Isolation_Mode.svg" alt="">
         <h2>Follow Us</h2>
         <p class=" ">
-          We help businesses generate more revenue
-through strategic web design and SEO
-services.
+          We help businesses generate more revenue through strategic web design and SEO services.
         </p>
         <div class="flex flex-row space-x-6">
            <button class=" " type="">

@@ -1,14 +1,16 @@
 <script setup>
-import mainLayout from '../../layouts/mainLayout.vue';
+import mainLayout from '../../layouts/mainLayout.vue'
 </script>
 
 <template>
     <mainLayout>
         <div class="flex items-center flex-col  bg-indigo-600/75">
             <div class="mt-20"><img src="../../assets/images/raiting.svg" /></div>
-            <div class="flex flex-col w-1/2 mx-auto items-center">
-                <h1 class="my-6 text-2xl  font-bold ">We Design & Develop Websites That Deliver Results</h1>
-                <p class="break-all">Our goal is to develop simple and modern websites that are optimized for both search
+            <div class="flex flex-col mx-auto items-center">
+                <h1 class="my-6  w-2/3 text-6xl text-center font-bold ">We Design & Develop Websites That Deliver Results
+                </h1>
+                <p class="w-1/2 text-2xl text-center">Our goal is to develop simple and modern websites that are optimized
+                    for both search
                     engines and user
                     experience, ultimately driving more traffic and revenue to your business.</p>
             </div>
@@ -44,7 +46,7 @@ import mainLayout from '../../layouts/mainLayout.vue';
                     We are passionate about helping businesses thrive online and creating user-focused websites that drive
                     real results.</p>
             </div>
-            <div class="flex flex-row w-3/5 bg-indigo-600/75 mx-auto items-center rounded-lg">
+            <div class="flex flex-row w-3/4 bg-indigo-600/75 mx-auto items-center rounded-lg">
                 <div class="flex items-center flex-col w-auto">
                     <div>
                         <img src="../../assets/images/custom.icon.svg" />
@@ -57,22 +59,124 @@ import mainLayout from '../../layouts/mainLayout.vue';
                         <button class="flex items-center w-32 justify-center ">Learn More </button>
                         <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
                     </div>
-                </div> 
-                <hr class="w-1 h-36 mx-auto my-8 bg-gray-200  ">  
+                </div>
+                <hr class="w-1 h-36 mx-auto my-8 bg-gray-200  ">
                 <div class="flex items-center flex-col w-auto">
                     <div>
                         <img src="../../assets/images/search.icon.svg" />
                     </div>
                     <h3> Custom Websites </h3>
-                    <p>Whether you’re looking to build a custom
-                        marketing website or the next Twitter we can
-                        help you build it.</p>
+                    <p>Whether you’re looking to build a custom marketing website or the next Twitter we can help you build
+                        it.</p>
                     <div class="flex flex-row my-4 border border-zinc-300 text-white rounded-full mr-9 ">
                         <button class="flex items-center w-32 justify-center ">Learn More </button>
                         <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
                     </div>
                 </div>
             </div>
+
+            <h1 class="flex w-auto justify-center text-4xl">Technologies We Use</h1>
+            <div class="flex flex-row w-auto justify-evenly">
+                <img src="../../assets/logo/figma.svg.svg" />
+                <img src="../../assets/logo/wordpress.svg.svg" />
+                <img src="../../assets/logo/woo.svg.svg" />
+                <img src="../../assets/logo/Clip path group.svg" />
+                <img src="../../assets/logo/Cubs.svg" />
+            </div>
+            <div id="carouselExampleCaptions" class="relative" data-te-carousel-slide>
+                <!--Carousel indicators-->
+
+                <!--Carousel items-->
+                <div class="flex w-auto overflow-hidden justify-center ">
+                    <!--First item-->
+                    <div class="flex flex-row w-full ">
+                        <div class="flex flex-col justify-center">
+                            <img src="../../assets/images/womenAvatar.svg" alt="" />
+                            <div class="py-5 text-center">
+                                <h5 class="text-xl">First slide label</h5>
+                                <p>
+                                    Some representative placeholder content for the first slide.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col  w-auto justify-center">
+                            <img src="../../assets/images/menAvatar.svg" alt="" />
+                            <div class="py-5 text-center">
+                                <h5 class="text-xl">First slide label</h5>
+                                <p>
+                                    Some representative placeholder content for the first slide.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-auto justify-center">
+                            <img src="../../assets/images/girl avatar.svg" alt="" />
+                            <div class="py-5 text-center">
+                                <h5 class="text-xl">First slide label</h5>
+                                <p>
+                                    Some representative placeholder content for the first slide.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!--Carousel controls - prev item-->
+                <button
+                    class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                    type="button" data-te-target="#carouselExampleCaptions" data-te-slide="prev">
+                    <span class="inline-block h-8 w-8">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </svg>
+                    </span>
+                    <span
+                        class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
+                </button>
+                <!--Carousel controls - next item-->
+                <button
+                    class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                    type="button" data-te-target="#carouselExampleCaptions" data-te-slide="next">
+                    <span class="inline-block h-8 w-8">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </span>
+                    <span
+                        class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
+                </button>
+            </div>
+            <div class=" bg-indigo-600/75">
+                <h1 class="flex justify-center text-4xl font-medium">Recent Projects</h1>
+            <div class="flex  justify-center space-x-7 m-7 ">
+                <div>
+                    <img src="../../assets/images/stickerbros-2-1024x1024.png.png" alt="">
+                </div>
+                <div>
+                    <img src="../../assets/images/lucidmedia-5-1024x1024.png.png" alt="">
+                </div>
+            </div>
+            <div class="flex justify-center space-x-7 m-7">
+                <div>
+                    <img src="../../assets/images/Freelanceleads-3-1024x1024.png.png" alt="">
+                </div>
+                <div>
+                    <img src="../../assets/images/Cart-Rescue-1-1-1024x1024.png.png" alt="">
+                </div>
+            </div>
+            <div>
+            <div class="flex flex-row w-auto my-4 border border-zinc-300 text-white rounded-full mr-9 ">
+                    <button class="flex items-center w-32 justify-center ">Let's Talk </button>
+                    <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
+                </div>
         </div>
+        </div>
+        </div>
+
+
     </mainLayout>
 </template>
