@@ -83,15 +83,18 @@ import mainLayout from '../../layouts/mainLayout.vue'
                 <img src="../../assets/logo/Clip path group.svg" />
                 <img src="../../assets/logo/Cubs.svg" />
             </div>
-            <div id="carouselExampleCaptions" class="relative" data-te-carousel-slide>
+            <div id="carouselExampleCaptions" class="relative bg-[#EEF2F6]" data-te-carousel-slide>
                 <!--Carousel indicators-->
-
+                <div class="flex flex-col text-center text-3xl ">
+                    <h1>hbsdjvbsj jgvugsuhsb</h1>
+                </div>
                 <!--Carousel items-->
-                <div class="flex w-auto overflow-hidden justify-center ">
+                <div class="flex w-auto overflow-hidden  justify-center">
                     <!--First item-->
-                    <div class="flex flex-row w-full ">
-                        <div class="flex flex-col justify-center">
-                            <img src="../../assets/images/womenAvatar.svg" alt="" />
+
+                    <div class="flex flex-row w-full">
+                        <div class="flex flex-col justify-center m-5 rounded-lg bg-[#FFFFFF]">
+                            <img class="mx-auto w-32" src="../../assets/images/womenAvatar.svg" alt="" />
                             <div class="py-5 text-center">
                                 <h5 class="text-xl">First slide label</h5>
                                 <p>
@@ -99,8 +102,8 @@ import mainLayout from '../../layouts/mainLayout.vue'
                                 </p>
                             </div>
                         </div>
-                        <div class="flex flex-col  w-auto justify-center">
-                            <img src="../../assets/images/menAvatar.svg" alt="" />
+                        <div class="flex flex-col justify-center w-full m-5 rounded-lg bg-[#FFFFFF]">
+                            <img class="mx-auto w-32" src="../../assets/images/womenAvatar.svg" alt="" />
                             <div class="py-5 text-center">
                                 <h5 class="text-xl">First slide label</h5>
                                 <p>
@@ -108,8 +111,26 @@ import mainLayout from '../../layouts/mainLayout.vue'
                                 </p>
                             </div>
                         </div>
-                        <div class="flex flex-col w-auto justify-center">
-                            <img src="../../assets/images/girl avatar.svg" alt="" />
+                        <div class="flex flex-col justify-center w-full m-5 rounded-lg bg-[#FFFFFF]">
+                            <img class="mx-auto w-32" src="../../assets/images/womenAvatar.svg" alt="" />
+                            <div class="py-5 text-center">
+                                <h5 class="text-xl">First slide label</h5>
+                                <p>
+                                    Some representative placeholder content for the first slide.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex justify-center m-5 w-full rounded-lg flex-col w-auto bg-[#FFFFFF] ">
+                            <img class="mx-auto w-32 " src="../../assets/images/menAvatar.svg" alt="" />
+                            <div class="py-5 text-center">
+                                <h5 class="text-xl">First slide label</h5>
+                                <p>
+                                    Some representative placeholder content for the first slide.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-auto m-5 justify-center rounded-lg bg-[#FFFFFF]">
+                            <img class="mx-auto w-32" src="../../assets/images/girl avatar.svg" alt="" />
                             <div class="py-5 text-center">
                                 <h5 class="text-xl">First slide label</h5>
                                 <p>
@@ -152,30 +173,88 @@ import mainLayout from '../../layouts/mainLayout.vue'
             </div>
             <div class=" bg-indigo-600/75">
                 <h1 class="flex justify-center text-4xl font-medium">Recent Projects</h1>
-            <div class="flex  justify-center space-x-7 m-7 ">
-                <div>
-                    <img src="../../assets/images/stickerbros-2-1024x1024.png.png" alt="">
+                <div class="flex  justify-center space-x-7 m-7 ">
+                    <div>
+                        <img src="../../assets/images/stickerbros-2-1024x1024.png.png" alt="">
+                    </div>
+                    <div>
+                        <img src="../../assets/images/lucidmedia-5-1024x1024.png.png" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-center space-x-7 m-7">
+                    <div>
+                        <img src="../../assets/images/Freelanceleads-3-1024x1024.png.png" alt="">
+                    </div>
+                    <div>
+                        <img src="../../assets/images/Cart-Rescue-1-1-1024x1024.png.png" alt="">
+                    </div>
                 </div>
                 <div>
-                    <img src="../../assets/images/lucidmedia-5-1024x1024.png.png" alt="">
+                    <div class="flex flex-row w-auto my-4 border border-zinc-300 text-white rounded-full mr-9 ">
+                        <button class="flex items-center w-32 justify-center ">Let's Talk </button>
+                        <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
+                    </div>
                 </div>
             </div>
-            <div class="flex justify-center space-x-7 m-7">
-                <div>
-                    <img src="../../assets/images/Freelanceleads-3-1024x1024.png.png" alt="">
+            <div class="flex flex-col w-3/4 mx-auto items-center">
+                 <h1 class="text-center">recent posts</h1>
+                
+            <div class="flex flex-row w-auto h-auto justify-center m-7">
+               
+                <div class="flex flex-col mx-auto w-full h-full">
+                    <div class="w-auto h-auto">
+                        <img src="../../assets/images/10-Landing-Page-Dos-and-Donts-1024x534.jpg.png" alt="">
+                    </div>
+                    <h3 class="w-auto h-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, quas quisquam facilis exercitationem
+                        commodi voluptas nisi tenetur illum itaque aliquid vero ut animi a eveniet expedita dolor nulla ad
+                        aspernatur.</h3>
+                    <div class="flex flex-row my-4 mr-9   text-[#23A6F0]">
+                        <button class="flex items-center w-20 text-sm ">Learn More </button>
+                        <div class="flex items-center w-3 "> <img src="../../assets/icone/vectorLurji.svg" /></div>
+                    </div>
                 </div>
-                <div>
-                    <img src="../../assets/images/Cart-Rescue-1-1-1024x1024.png.png" alt="">
+                <div class="flex flex-col w-full h-full">
+                    <div class="w-auto h-auto">
+                        <img src="../../assets/images/10-Landing-Page-Dos-and-Donts-1024x534.jpg.png" alt="">
+                    </div>
+                    <h3 class="w-full h-full">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, quas quisquam facilis exercitationem
+                        commodi voluptas nisi tenetur illum itaque aliquid vero ut animi a eveniet expedita dolor nulla ad
+                        aspernatur.</h3>
+                    <div class="flex flex-row my-4 mr-9   text-[#23A6F0]">
+                        <button class="flex items-center w-20 text-sm ">Learn More </button>
+                        <div class="flex items-center w-3 "> <img src="../../assets/icone/vectorLurji.svg" /></div>
+                    </div>
                 </div>
+                <div class="flex flex-col w-full h-full">
+                    <div class="w-auto h-auto">
+                        <img src="../../assets/images/10-Landing-Page-Dos-and-Donts-1024x534.jpg.png" alt="">
+                    </div>
+                    <h3 class="w-full h-full">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, quas quisquam facilis exercitationem
+                        commodi voluptas nisi tenetur illum itaque aliquid vero ut animi a eveniet expedita dolor nulla ad
+                        aspernatur.</h3>
+                    <div class="flex flex-row my-4 mr-9   text-[#23A6F0]">
+                        <button class="flex items-center w-20 text-sm ">Learn More </button>
+                        <div class="flex items-center w-3 "> <img src="../../assets/icone/vectorLurji.svg" /></div>
+                    </div>
+                </div>  
             </div>
-            <div>
-            <div class="flex flex-row w-auto my-4 border border-zinc-300 text-white rounded-full mr-9 ">
-                    <button class="flex items-center w-32 justify-center ">Let's Talk </button>
-                    <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
+            <div class="flex flex-row my-4 border border-zinc-300  rounded-full mr-9 ">
+                        <button class="flex items-center w-32 justify-center ">Learn More </button>
+                        <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
+                    </div>
+        </div>
+        <div class="flex flex-col w-3/4 bg-indigo-600/75 mx-auto items-center rounded-lg">
+                <div class="flex items-center flex-col w-1/2 text-center">
+                    <h2 class="text-4xl text-white"> Want to see if Icepick is the right fit for you? </h2>
+                    <p class="w-96">Give us a shout and let’s see if we’re the right match for you and your business!</p>
                 </div>
+                <div class="flex flex-row my-4 bg-yellow-400 h-10  rounded-full mr-9 ">
+        <button class="flex items-center w-32 justify-center ">Let's Talk </button>
+        <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
+    </div> 
+            </div>
         </div>
-        </div>
-        </div>
+
 
 
     </mainLayout>
