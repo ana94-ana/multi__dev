@@ -17,7 +17,7 @@ import mainLayout from '../../layouts/mainLayout.vue';
         </div>
         <div class="text-left w-1/2 mx-32 my-24">
           <h1 class="text-4xl">Corewood Care</h1>
-          <p class="text-lg my-4">Corewood Care is a privately owned home care and care management agency dedicated to
+          <p class="text-lg text-[#EEF8FF] my-4">Corewood Care is a privately owned home care and care management agency dedicated to
             providing personalized and exceptional care support services to individuals in familiar surroundings.</p>
           <button class="flex items-center w-32 justify-center rounded-full h-14 text-[#2E4F5B] bg-[#FFFFFF]">Learn More
           </button>
@@ -29,7 +29,7 @@ import mainLayout from '../../layouts/mainLayout.vue';
         </div>
         <div class="text-left w-1/2 mx-32 my-24">
           <h1 class="text-4xl">Kojima Productions</h1>
-          <p class="text-lg my-4">Kojima Productions Co., Ltd. is a Japanese video game development studio founded in 2005 by video game designer Hideo Kojima, creator of the Metal Gear series.</p>
+          <p class="text-lg text-[#EEF8FF] my-4">Kojima Productions Co., Ltd. is a Japanese video game development studio founded in 2005 by video game designer Hideo Kojima, creator of the Metal Gear series.</p>
           <button class="flex items-center w-32 justify-center rounded-full h-14 text-[#2E4F5B] bg-[#FFFFFF]">Learn More
           </button>
         </div>
@@ -40,7 +40,7 @@ import mainLayout from '../../layouts/mainLayout.vue';
         </div>
         <div class="text-[#FFFFFF] text-left w-1/2 mx-32 my-24">
           <h1 class="text-4xl">Corewood Care</h1>
-          <p class="text-lg my-4">Corewood Care is a privately owned home care and care management agency dedicated to
+          <p class="text-lg text-[#EEF8FF] my-4">Corewood Care is a privately owned home care and care management agency dedicated to
             providing personalized and exceptional care support services to individuals in familiar surroundings.</p>
           <button class="flex items-center w-32 justify-center rounded-full h-14 text-[#FFFFFF] bg-[#F26924]">Learn More
           </button>
@@ -52,7 +52,7 @@ import mainLayout from '../../layouts/mainLayout.vue';
         </div>
         <div class="text-left w-1/2 mx-32 my-24">
           <h1 class="text-4xl">Corewood Care</h1>
-          <p class="text-lg my-4">Corewood Care is a privately owned home care and care management agency dedicated to
+          <p class="text-lg text-[#EEF8FF] my-4">Corewood Care is a privately owned home care and care management agency dedicated to
             providing personalized and exceptional care support services to individuals in familiar surroundings.</p>
           <button class="flex items-center w-32 justify-center rounded-full h-14 text-[#FFFFFF] bg-[#D12E2D]">Learn More
           </button>
@@ -64,7 +64,7 @@ import mainLayout from '../../layouts/mainLayout.vue';
         </div>
         <div class="text-left w-1/2 mx-32 my-24">
           <h1 class="text-4xl">Corewood Care</h1>
-          <p class="text-lg my-4">Corewood Care is a privately owned home care and care management agency dedicated to
+          <p class="text-lg text-[#EEF8FF] my-4">Corewood Care is a privately owned home care and care management agency dedicated to
             providing personalized and exceptional care support services to individuals in familiar surroundings.</p>
           <button class="flex items-center w-32 justify-center rounded-full h-14 bg-[#3B3D9C]">Learn More
           </button>
