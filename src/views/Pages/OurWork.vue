@@ -70,7 +70,7 @@ import mainLayout from '../../layouts/mainLayout.vue';
           </button>
         </div>
       </div>
-      <div class="flex justify-center mx-auto flex-row bg-gradient-to-b from-[#89BC51] to-[#62AC47] w-3/4 rounded-lg ">
+      <div class="flex justify-center mx-auto flex-row bg-gradient-to-b from-[#89BC51] to-[#62AC47] w-3/4 rounded-lg  ">
         <div class="mt-20 w-auto h-auto">
           <img src="../../assets/images/infowerks-screenshot.png.png" alt="">
         </div>
@@ -81,6 +81,10 @@ import mainLayout from '../../layouts/mainLayout.vue';
           <button class="flex items-center w-32 justify-center rounded-full h-14  bg-[#3B3D9C]">Learn More
           </button>
         </div>
+      </div>
+      <div class="flex flex-col text-center h-full bg-[#6967CE] text-6xl text-[#FFFFFF] pt-20 ">
+        <p>Ready to work with us? </p>
+        <p class="text-[#FFB902] pb-20 underline underline-offset-8 "> Let's build something awesome.</p>
       </div>
     </div>
     </div>
