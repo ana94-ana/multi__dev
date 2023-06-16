@@ -25,12 +25,12 @@ const router = createRouter({
       component: () => new Promise(resolve => resolve(defineComponent(RouterView))),
       children: [
         {
-          path: ':id',
+          path: 'custom',
           name: 'Custom',
           component: () => import('../views/Pages/Custom.vue')
         },
         {
-          path: ':id',
+          path: 'templated',
           name: 'Templated',
           component: () => import('../views/Pages/Templated.vue'),
         

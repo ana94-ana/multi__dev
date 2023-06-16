@@ -9,16 +9,18 @@ import mainLayout from '../../layouts/mainLayout.vue';
         <div class="flex justify-end mx-auto w-1/3 h-auto ">
           <img class="w-full" src="../../assets/images/custom-websites.png.png" alt="">
         </div>
-        <div class="flex flex-col  mx-auto text-left w-2/5 mx-52 space-y-5 mt-20">
+        <div class="flex flex-col items-center mx-auto  ">
+          <div class="text-left mx-52 space-y-5 my-20">
           <h1
-            class="text-6xl text-left bg-clip-text text-transparent bg-gradient-to-r from-[#FFB902] via-[#FFFFFF] to-[#FFFFFF] ">
-            Cutom Websites</h1>
+            class="text-6xl text-left text-[#FFB902]  ">
+            Cutom <span class="text-[#FFFFFF]">Websites</span></h1>
           <p class=" text-[#BDC8DB] text-xl">Whether you’re looking to build a custom marketing website or the next
             Twitter we can help you build anything
             you’re envisioning.</p>
           <button class="flex w-44 text-[#FFFFFF] border rounded-full py-4 px-8 text-sm"> Get In
             Touch</button>
         </div>
+      </div>
       </div>
       <div>
         <div class="flex flex-row-reverse">
