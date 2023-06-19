@@ -40,7 +40,7 @@ const router = createRouter({
     {
       path: '/blog',
       name: 'Blog',
-      component: () => new Promise(resolve => resolve(defineComponent(RouterView))),
+      component: () => import('../views/Pages/Blog.vue'),
       children: [
         {
           path: ':id',
