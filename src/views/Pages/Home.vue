@@ -52,7 +52,7 @@ import mainLayout from '../../layouts/mainLayout.vue'
                         real results.</p>
                 </div>
                 <div class="flex flex-col space-y-10 mx-4 items-center bg-indigo-600/75 rounded-lg md:flex-row md:w-3/4  ">
-                    <div class="flex text-center mx-3 items-center flex-col  w-auto space-y-5">
+                    <div class="flex text-center p-3  items-center flex-col  w-auto space-y-5">
                         <div>
                             <img src="../../assets/images/custom.icon.svg" />
                         </div>
@@ -66,7 +66,7 @@ import mainLayout from '../../layouts/mainLayout.vue'
                         </div>
                     </div>
                     <hr class="  mx-auto my-8 bg-gray-200 md:h-36 md:w-1 ">
-                    <div class="flex items-center flex-col w-auto">
+                    <div class="flex items-center p-3 items-center flex-col w-auto space-y-5">
                         <div>
                             <img src="../../assets/images/search.icon.svg" />
                         </div>
@@ -76,7 +76,7 @@ import mainLayout from '../../layouts/mainLayout.vue'
                             it.</p>
                         <div class="flex flex-row my-4 border border-zinc-300 text-white rounded-full mr-9 ">
                             <button class="flex items-center w-32 justify-center ">Learn More </button>
-                            <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
+                            <div class="flex items-center  w-8"> <img src="../../assets/images/isari.svg" /></div>
                         </div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@ import mainLayout from '../../layouts/mainLayout.vue'
                     <div class="flex w-auto overflow-hidden  justify-center">
                         <!--First item-->
 
-                        <div class="flex flex-row w-full">
+                        <div class="flex  w-full flex-row">
                             <div class="flex flex-col justify-center m-5 rounded-lg bg-[#FFFFFF]">
                                 <img class="mx-auto w-32" src="../../assets/images/womenAvatar.svg" alt="" />
                                 <div class="py-5 text-center">
@@ -177,35 +177,33 @@ import mainLayout from '../../layouts/mainLayout.vue'
                             class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
                     </button>
                 </div>
-                <div class=" bg-indigo-600/75">
+                <div class=" bg-indigo-600/75 space-y-10">
                     <h1 class="flex justify-center text-4xl font-medium">Recent Projects</h1>
-                    <div class="flex  justify-center space-x-7 m-7 ">
+                    <div class="md:columns-2 justify-center mx-auto w-3/4 mx-4 space-y-7 ">
                         <div>
                             <img src="../../assets/images/stickerbros-2-1024x1024.png.png" alt="">
                         </div>
                         <div>
                             <img src="../../assets/images/lucidmedia-5-1024x1024.png.png" alt="">
                         </div>
-                    </div>
-                    <div class="flex justify-center space-x-7 m-7">
                         <div>
                             <img src="../../assets/images/Freelanceleads-3-1024x1024.png.png" alt="">
                         </div>
                         <div>
                             <img src="../../assets/images/Cart-Rescue-1-1-1024x1024.png.png" alt="">
                         </div>
-                    </div>
                     <div>
-                        <div class="flex flex-row w-auto my-4 border border-zinc-300 text-white rounded-full mr-9 ">
+                        <div class="flex justify-center mx-auto w-52 h-14 my-4 border border-zinc-300 text-white rounded-full  flex-row ">
                             <button class="flex items-center w-32 justify-center ">Let's Talk </button>
                             <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
                         </div>
                     </div>
                 </div>
+                </div>
                 <div class="flex flex-col w-3/4 mx-auto items-center">
                     <h1 class="text-center">recent posts</h1>
 
-                    <div class="flex flex-row w-auto h-auto justify-center m-7">
+                    <div class="flex justify-center w-auto flex-col h-auto  m-7 md:flex-row ">
 
                         <div class="flex flex-col mx-auto w-full h-full">
                             <div class="w-auto h-auto">
@@ -255,8 +253,8 @@ import mainLayout from '../../layouts/mainLayout.vue'
                         <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
                     </div>
                 </div>
-                <div class="flex flex-col w-3/4 bg-indigo-600/75 mx-auto items-center rounded-lg">
-                    <div class="flex items-center flex-col w-1/2 text-center">
+                <div class="flex items-center m-4 flex-col  bg-indigo-600/75  rounded-lg md:w-3/4">
+                    <div class="flex items-center flex-col  text-center md:w-1/2">
                         <h2 class="text-4xl text-white"> Want to see if Icepick is the right fit for you? </h2>
                         <p class="w-96">Give us a shout and let’s see if we’re the right match for you and your business!
                         </p>
