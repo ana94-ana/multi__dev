@@ -16,7 +16,7 @@ import mainLayout from '../../layouts/mainLayout.vue';
           <p class=" text-[#BDC8DB] text-xl">Whether you’re looking to build a custom marketing website or the next
             Twitter we can help you build anything
             you’re envisioning.</p>
-          <button class="flex  w-44 text-[#FFFFFF] border rounded-full py-4 px-8 text-sm"> Get In
+          <button class="flex mx-auto w-44 text-[#FFFFFF] border rounded-full py-4 px-8 text-sm md:mx-0"> Get In
             Touch</button>
         </div>
       </div>
