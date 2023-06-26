@@ -8,7 +8,7 @@ import mainLayout from '../../layouts/mainLayout.vue';
       <div class="text-[#FFFFFF] bg-[#6967CE]   ">
         <h1 class="py-20 text-center text-5xl">Blog</h1>
       </div>
-      <div class="columns-2 justify-center mx-auto w-3/4 space-y-5">
+      <div class=" justify-center mx-5 space-y-5 md:mx-auto md:w-3/4  md:columns-2">
         <div class="container mx-auto space-y-6">
           <img src="../../assets//images//a.post-featured-image.png" alt="">
           <h1 class="text-[#6967CE] text-3xl">Custom WordPress Development: A Comprehensive Guide</h1>
@@ -74,7 +74,7 @@ import mainLayout from '../../layouts/mainLayout.vue';
           <button class="bg-[#FFB902] rounded-full px-8 py-4">Read Post</button>
         </div> 
     </div>
-    <div class="flex flex-col text-center h-full bg-[#6967CE] text-6xl text-[#FFFFFF] pt-20 ">
+    <div class="flex flex-col text-center text-3xl h-full bg-[#6967CE]  text-[#FFFFFF] pt-20 md:text-6xl">
         <p>Ready to work with us? </p>
         <p class="text-[#FFB902] pb-20 underline underline-offset-8 "> Let's build something awesome.</p>
       </div>
