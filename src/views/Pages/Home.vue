@@ -8,7 +8,7 @@ import mainLayout from '../../layouts/mainLayout.vue'
     <mainLayout>
         <div class="space-y-10">
             <div class="flex items-center flex-col  bg-indigo-600/75">
-                <div class="mt-20"><img src="../../assets/images/raiting.svg" /></div>
+                <div class="mt-20"><img src="@/assets/images/raiting.svg" /></div>
                 <div class="flex flex-col mx-auto items-center">
                     <h1 class=" mx-auto text-6xl text-center font-bold my-6 md:w-2/3">We Design & Develop Websites That
                         Deliver
@@ -24,11 +24,11 @@ import mainLayout from '../../layouts/mainLayout.vue'
                 <div class="flex mx-auto my-6 flex-row ">
                     <div class="flex my-4 bg-yellow-400 h-10  rounded-full mr-9 ">
                         <button class="flex items-center w-32 justify-center ">Let's Talk </button>
-                        <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
+                        <div class="flex items-center w-8"> <img src="@/assets/images/isari.svg" /></div>
                     </div>
                     <div class="flex flex-row my-4 border border-zinc-300 text-white rounded-full mr-9 ">
                         <button class="flex items-center w-32 justify-center ">Let's Talk </button>
-                        <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
+                        <div class="flex items-center w-8"> <img src="@/assets/images/isari.svg" /></div>
                     </div>
                 </div>
                 <div class=" mt-10 space-y-12">
@@ -38,11 +38,11 @@ import mainLayout from '../../layouts/mainLayout.vue'
                         <hr class=" md:w-64 mx-auto my-4 bg-gray-200  ">
                     </div>
                     <div class="flex mx-auto flex-row space-x-10 ">
-                        <img src="../../assets/images/aegisliving.svg" />
-                        <img src="../../assets/images/KOJIMA-PRODUCTIONS-png.png.svg" />
-                        <img src="../../assets/images/doctor-butlers.svg.svg" />
-                        <img src="../../assets/images/telepsychiatry-svg.svg.svg" />
-                        <img src="../../assets/images/united-way.svg.svg" />
+                        <img src="@/assets/images/aegisliving.svg" />
+                        <img src="@/assets/images/KOJIMA-PRODUCTIONS-png.png.svg" />
+                        <img src="@/assets/images/doctor-butlers.svg.svg" />
+                        <img src="@/assets/images/telepsychiatry-svg.svg.svg" />
+                        <img src="@/assets/images/united-way.svg.svg" />
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ import mainLayout from '../../layouts/mainLayout.vue'
                     class="flex flex-col space-y-10 mx-4 items-center bg-indigo-600/75 rounded-lg md:space-y-0 md:mx-auto md:flex-row md:w-3/4  ">
                     <div class="flex text-center p-3  items-center flex-col  w-auto space-y-5">
                         <div>
-                            <img src="../../assets/images/custom.icon.svg" />
+                            <img src="@/assets/images/custom.icon.svg" />
                         </div>
                         <h3> Custom Websites </h3>
                         <p>Whether you’re looking to build a custom
@@ -67,13 +67,13 @@ import mainLayout from '../../layouts/mainLayout.vue'
                             help you build it.</p>
                         <div class="flex flex-row my-4 h-12 border border-zinc-300 text-white rounded-full mr-9 ">
                             <button class="flex items-center w-32 justify-center ">Learn More </button>
-                            <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
+                            <div class="flex items-center w-8"> <img src="@/assets/images/isari.svg" /></div>
                         </div>
                     </div>
                     <hr class="  mx-auto my-8 bg-gray-200 md:h-36 md:w-1 ">
                     <div class="flex items-center p-3 items-center text-center flex-col w-auto space-y-5">
                         <div>
-                            <img src="../../assets/images/search.icon.svg" />
+                            <img src="@/assets/images/search.icon.svg" />
                         </div>
                         <h3> Custom Websites </h3>
                         <p>Whether you’re looking to build a custom marketing website or the next Twitter we can help you
@@ -81,18 +81,18 @@ import mainLayout from '../../layouts/mainLayout.vue'
                             it.</p>
                         <div class="flex flex-row my-4 border h-12 border-zinc-300 text-white rounded-full mr-9 ">
                             <button class="flex items-center w-32 justify-center ">Learn More </button>
-                            <div class="flex items-center  w-8"> <img src="../../assets/images/isari.svg" /></div>
+                            <div class="flex items-center  w-8"> <img src="@/assets/images/isari.svg" /></div>
                         </div>
                     </div>
                 </div>
 
                 <h1 class="flex w-auto justify-center text-4xl">Technologies We Use</h1>
                 <div class="flex flex-row w-auto justify-evenly">
-                    <img src="../../assets/logo/figma.svg.svg" />
-                    <img src="../../assets/logo/wordpress.svg.svg" />
-                    <img src="../../assets/logo/woo.svg.svg" />
-                    <img src="../../assets/logo/Clip path group.svg" />
-                    <img src="../../assets/logo/Cubs.svg" />
+                    <img src="@/assets/logo/figma.svg.svg" />
+                    <img src="@/assets/logo/wordpress.svg.svg" />
+                    <img src="@/assets/logo/woo.svg.svg" />
+                    <img src="@/assets/logo/Clippathgroup.svg" />
+                    <img src="@/assets/logo/Cubs.svg" />
                 </div>
                 <div id="carouselExampleCaptions" class="relative bg-[#EEF2F6]" data-te-carousel-slide>
                     <div class="flex flex-col text-center text-3xl ">
@@ -101,14 +101,14 @@ import mainLayout from '../../layouts/mainLayout.vue'
                     <div class="flex w-auto overflow-hidden  justify-center">
                         <div class="flex  w-full flex-row">
                             <div class="flex flex-col justify-center m-5 rounded-lg bg-[#FFFFFF]">
-                                <img class="mx-auto w-32" src="../../assets/images/womenAvatar.svg" alt="" />
+                                <img class="mx-auto w-32" src="@/assets/images/womenAvatar.svg" alt="" />
                                 <div class="py-5 text-center">
                                     <h5 class="text-xl">First slide label</h5>
                                     <p> Some representative placeholder content for the first slide. </p>
                                 </div>
                             </div>
                             <div class="flex flex-col justify-center w-full m-5 rounded-lg bg-[#FFFFFF]">
-                                <img class="mx-auto w-32" src="../../assets/images/womenAvatar.svg" alt="" />
+                                <img class="mx-auto w-32" src="@/assets/images/womenAvatar.svg" alt="" />
                                 <div class="py-5 text-center">
                                     <h5 class="text-xl">First slide label</h5>
                                     <p>
@@ -117,7 +117,7 @@ import mainLayout from '../../layouts/mainLayout.vue'
                                 </div>
                             </div>
                             <div class="flex flex-col justify-center w-full m-5 rounded-lg bg-[#FFFFFF]">
-                                <img class="mx-auto w-32" src="../../assets/images/womenAvatar.svg" alt="" />
+                                <img class="mx-auto w-32" src="@/assets/images/womenAvatar.svg" alt="" />
                                 <div class="py-5 text-center">
                                     <h5 class="text-xl">First slide label</h5>
                                     <p>
@@ -126,7 +126,7 @@ import mainLayout from '../../layouts/mainLayout.vue'
                                 </div>
                             </div>
                             <div class="flex justify-center m-5 w-full rounded-lg flex-col w-auto bg-[#FFFFFF] ">
-                                <img class="mx-auto w-32 " src="../../assets/images/menAvatar.svg" alt="" />
+                                <img class="mx-auto w-32 " src="@/assets/images/menAvatar.svg" alt="" />
                                 <div class="py-5 text-center">
                                     <h5 class="text-xl">First slide label</h5>
                                     <p>
@@ -135,7 +135,7 @@ import mainLayout from '../../layouts/mainLayout.vue'
                                 </div>
                             </div>
                             <div class="flex flex-col w-auto m-5 justify-center rounded-lg bg-[#FFFFFF]">
-                                <img class="mx-auto w-32" src="../../assets/images/girl avatar.svg" alt="" />
+                                <img class="mx-auto w-32" src="@/assets/images/girlavatar.svg" alt="" />
                                 <div class="py-5 text-center">
                                     <h5 class="text-xl">First slide label</h5>
                                     <p>
@@ -174,22 +174,22 @@ import mainLayout from '../../layouts/mainLayout.vue'
                     <h1 class="flex justify-center mx-auto text-4xl font-medium">Recent Projects</h1>
                     <div class="justify-center  mx-4 space-y-7 md:mx-auto md:columns-2 md:w-3/4 ">
                         <div>
-                            <img src="../../assets/images/stickerbros-2-1024x1024.png.png" alt="">
+                            <img src="@/assets/images/stickerbros-2-1024x1024.png.png" alt="">
                         </div>
                         <div>
-                            <img src="../../assets/images/lucidmedia-5-1024x1024.png.png" alt="">
+                            <img src="@/assets/images/lucidmedia-5-1024x1024.png.png" alt="">
                         </div>
                         <div>
-                            <img src="../../assets/images/Freelanceleads-3-1024x1024.png.png" alt="">
+                            <img src="@/assets/images/Freelanceleads-3-1024x1024.png.png" alt="">
                         </div>
                         <div>
-                            <img src="../../assets/images/Cart-Rescue-1-1-1024x1024.png.png" alt="">
+                            <img src="@/assets/images/Cart-Rescue-1-1-1024x1024.png.png" alt="">
                         </div>
                     </div>
                     <div
                         class="flex justify-center mx-auto w-52 h-14 border border-zinc-300 text-white rounded-full  flex-row ">
                         <button class="flex items-center mx-auto w-32 justify-center ">Let's Talk </button>
-                        <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
+                        <div class="flex items-center w-8"> <img src="@/assets/images/isari.svg" /></div>
                     </div>
                 </div>
                 <div class="flex flex-col w-3/4 mx-auto items-center">
@@ -199,7 +199,7 @@ import mainLayout from '../../layouts/mainLayout.vue'
 
                         <div class="flex flex-col mx-auto w-full h-full">
                             <div class="w-auto h-auto">
-                                <img src="../../assets/images/photo-1454165205744-3b78555e5572-845x563-1.jpg.png" alt="">
+                                <img src="@/assets/images/photo-1454165205744-3b78555e5572-845x563-1.jpg.png" alt="">
                             </div>
                             <h3 class="w-auto h-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, quas
                                 quisquam facilis exercitationem
@@ -208,12 +208,12 @@ import mainLayout from '../../layouts/mainLayout.vue'
                                 aspernatur.</h3>
                             <div class="flex flex-row my-4 mr-9   text-[#23A6F0]">
                                 <button class="flex items-center w-20 text-sm ">Learn More </button>
-                                <div class="flex items-center w-3 "> <img src="../../assets/icone/vectorLurji.svg" /></div>
+                                <div class="flex items-center w-3 "> <img src="@/assets/icone/vectorLurji.svg" /></div>
                             </div>
                         </div>
                         <div class="flex flex-col w-full h-full">
                             <div class="w-auto h-auto">
-                                <img src="../../assets/images/improve-your-website-copy-1.png.png" alt="">
+                                <img src="@/assets/images/improve-your-website-copy-1.png.png" alt="">
                             </div>
                             <h3 class="w-full h-full">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, quas
                                 quisquam facilis exercitationem
@@ -227,7 +227,7 @@ import mainLayout from '../../layouts/mainLayout.vue'
                         </div>
                         <div class="flex flex-col w-full h-full">
                             <div class="w-auto h-auto">
-                                <img src="../../assets/images/10-Landing-Page-Dos-and-Donts-1024x534.jpg.png" alt="">
+                                <img src="@/assets/images/10-Landing-Page-Dos-and-Donts-1024x534.jpg.png" alt="">
                             </div>
                             <h3 class="w-full h-full">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, quas
                                 quisquam facilis exercitationem
@@ -236,13 +236,13 @@ import mainLayout from '../../layouts/mainLayout.vue'
                                 aspernatur.</h3>
                             <div class="flex flex-row my-4 mr-9  text-[#23A6F0]">
                                 <button class="flex items-center w-20 text-sm ">Learn More </button>
-                                <div class="flex items-center w-3 "> <img src="../../assets/icone/vectorLurji.svg" /></div>
+                                <div class="flex items-center w-3 "> <img src="@/assets/icone/vectorLurji.svg" /></div>
                             </div>
                         </div>
                     </div>
                     <div class="flex flex-row my-4 border border-zinc-300  h-14 rounded-full mr-9 ">
                         <button class="flex items-center w-32 justify-center ">Learn More </button>
-                        <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
+                        <div class="flex items-center w-8"> <img src="@/assets/images/isari.svg" /></div>
                     </div>
                 </div>
                 <div class="flex items-center mx-4 py-4 flex-col  bg-indigo-600/75  rounded-lg md:mx-auto md:w-3/4">
@@ -253,7 +253,7 @@ import mainLayout from '../../layouts/mainLayout.vue'
                     </div>
                     <div class="flex flex-row my-4 bg-yellow-400 h-10 h-14 rounded-full mr-9 ">
                         <button class="flex items-center w-32 justify-center ">Let's Talk </button>
-                        <div class="flex items-center w-8"> <img src="../../assets/images/isari.svg" /></div>
+                        <div class="flex items-center w-8"> <img src="@/assets/images/isari.svg" /></div>
                     </div>
                 </div>
             </div>

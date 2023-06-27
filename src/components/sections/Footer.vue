@@ -6,20 +6,20 @@
   <div class="container mx-auto w-full">
     <div class="flex flex-row ">
       <div class="w-auto ">
-        <img src="../../assets/images/Isolation_Mode.svg" alt="">
+        <img src="@/assets/images/Isolation_Mode.svg" alt="">
         <h2>Follow Us</h2>
         <p class=" ">
           We help businesses generate more revenue through strategic web design and SEO services.
         </p>
         <div class="flex flex-row space-x-6">
-           <button class=" " type="">
-            <img src="../../assets/images/facebook.svg" alt=""/>
+           <button>
+            <img src="@/assets/images/facebook.svg" alt=""/>
             </button>
-            <button class="" type="">
-              <img src="../../assets/images/instagram.svg" alt="">
+            <button >
+              <img src="@/assets/images/instagram.svg" alt="">
             </button>
-            <button class=" " type="">
-              <img src="../../assets/images/twiter.svg" alt="">
+            <button >
+              <img src="@/assets/images/twiter.svg" alt="">
           </button>
         </div>
       </div>

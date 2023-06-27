@@ -22,14 +22,14 @@ import mainLayout from '../../layouts/mainLayout.vue';
     <div class="flex flex-col mx-5 space-y-5 justify-center md:mx-auto md:space-y-0 md:space-x-5 md:flex-row">
       <div class="bg-[#FFF8EB] rounded-lg  md:w-1/4  ">
         <div class="m-8 space-y-5">
-        <img  src="../../assets/icone/time-icon.svg.svg" alt="">
+        <img  src="@/assets/icone/time-icon.svg.svg" alt="">
         <p class="text-3xl">Time</p>
         <p class="text-[#515D72]">Since we have a starting point we’re able to build quickly and efficiently.</p>
       </div>
       </div>
       <div class="bg-[#EBFEFE]  rounded-lg md:w-1/4">
         <div class="m-8 space-y-5">
-        <img src="../../assets/icone/money-icon.svg.svg" alt="">
+        <img src="@/assets/icone/money-icon.svg.svg" alt="">
         <p class="text-3xl">Money</p>
         <p class="text-[#515D72] ">Our base templates are already built and we just need to reskin it to match your brand.</p>
       </div>
@@ -37,7 +37,7 @@ import mainLayout from '../../layouts/mainLayout.vue';
     </div>
      <p class="flex items-center mx-5  text-center text-[#212529] md:mx-auto md:w-1/3">If your company doesn’t need a flashy or totally unique website this is usually the best way to go.</p>
  <div>
-  <img class="flex items-center mx-5 w-auto h-auto md:mx-auto" src="../../assets/images/template-preview.png.png" alt="">
+  <img class="flex items-center mx-5 w-auto h-auto md:mx-auto" src="@/assets/images/template-preview.png.png" alt="">
  </div>
  <div class="bg-[#EEF8FF] space-y-10 py-24">
  <div class="flex flex-col items-center mx-5 space-y-5 md:mx-auto">
@@ -47,42 +47,42 @@ import mainLayout from '../../layouts/mainLayout.vue';
     <div class=" justify-center mx-5 space-y-5 md:columns-2 md:w-3/4 md:mx-auto">
       <div class="container mx-auto h-72 bg-[#FFFFFF] rounded-lg  ">
         <div class="p-8 space-y-5">
-          <img  src="../../assets/icone/hosting-icon.svg.svg" alt="">
+          <img  src="@/assets/icone/hosting-icon.svg.svg" alt="">
           <p class="text-3xl">Hosting Included</p>
         <p class="text-[#515D72]">Hosting fees are built right into the monthly payment.</p>
       </div>
       </div>
       <div class="container mx-auto h-72 bg-[#FFFFFF] rounded-lg  ">
         <div class="p-8 space-y-5">
-          <img  src="../../assets/icone/fast-icon.svg.svg" alt="">
+          <img  src="@/assets/icone/fast-icon.svg.svg" alt="">
           <p class="text-3xl">Wicked Fast</p>
         <p class="text-[#515D72]">We know how to get your business ranking on Google and all of our websites are built with SEO in mind.</p>
         </div>
       </div>
       <div class="container mx-auto h-72  bg-[#FFFFFF] rounded-lg ">
         <div class="p-8 space-y-5">
-          <img  src="../../assets/icone/analytics-icon.svg.svg" alt="">
+          <img  src="@/assets/icone/analytics-icon.svg.svg" alt="">
           <p class="text-3xl">Google Analytics</p>
         <p class="text-[#515D72]">It’s important to track how your website is being used and Google Analytics helps you understand exactly who your users are and where they’re going.</p>
       </div>
       </div>
       <div class="container mx-auto h-72  bg-[#FFFFFF] rounded-lg  ">
         <div class="p-8 space-y-5">
-          <img  src="../../assets/icone/edits-icon.svg.svg" alt="">
+          <img  src="@/assets/icone/edits-icon.svg.svg" alt="">
           <p class="text-3xl">Unlimited Edits</p>
         <p class="text-[#515D72]">We’ll help you update any content or photos you might want at any time!</p>
       </div>
       </div>
       <div class="container mx-auto h-72  bg-[#FFFFFF] rounded-lg ">
         <div class="p-8 space-y-5">
-          <img  src="../../assets/icone/seo-icon.svg.svg" alt="">
+          <img  src="@/assets/icone/seo-icon.svg.svg" alt="">
           <p class="text-3xl">SEO Friendly</p>
         <p class="text-[#515D72]">Since our websites are built from scratch, you can enjoy blazing fast page speed scores which help your users stay on your website but also rank higher with SEO.</p>
       </div>
       </div>
       <div class="container mx-auto h-72  bg-[#FFFFFF] rounded-lg ">
         <div class="p-8 space-y-5">
-          <img  src="../../assets/icone/profile-icon.svg.svg" alt="">
+          <img  src="@/assets/icone/profile-icon.svg.svg" alt="">
           <p class="text-3xl">Google Business Profile</p>
         <p class="text-[#515D72]">We also help you set up Google Business Profile which is a great tool for local businesses to get more leads.</p>
       </div>
@@ -146,29 +146,29 @@ import mainLayout from '../../layouts/mainLayout.vue';
   <div class="flex flex-col space-y-5  justify-center md:space-y-0 md:mx-auto md:w-3/4 md:flex-row">
   <div class="flex flex-col items-center mx-auto  w-auto md:mb-20  ">
     <div>
-      <img src="../../assets/images/templated-uniform.png" alt="">
+      <img src="@/assets/images/templated-uniform.png" alt="">
     </div>
     <div class="flex justify-center flex-row w-full rounded-b-lg bg-[#FFFFFF]">
       <p>ATM Sports</p>
-      <button class="text-[#23A6F0] ml-20 mr-2.5">View Website</button><img src="../../assets/icone/vectorLurji.svg" alt="">
+      <button class="text-[#23A6F0] ml-20 mr-2.5">View Website</button><img src="@/assets/icone/vectorLurji.svg" alt="">
     </div>
   </div>
   <div class="flex flex-col items-center mx-auto  w-auto">
     <div>
-      <img src="../../assets/images/templated busines.png" alt="">
+      <img src="@/assets/images/templatedbusines.png" alt="">
     </div>
     <div class="flex justify-center flex-row w-full rounded-b-lg bg-[#FFFFFF]">
       <p>ATM Sports</p>
-      <button class="text-[#23A6F0]  ml-20 mr-2.5">View Website</button><img src="../../assets/icone/vectorLurji.svg" alt="">
+      <button class="text-[#23A6F0]  ml-20 mr-2.5">View Website</button><img src="@/assets/icone/vectorLurji.svg" alt="">
     </div>
   </div>
   <div class="flex flex-col items-center mx-auto w-auto">
     <div>
-      <img src="../../assets/images/templated-looking.png" alt="">
+      <img src="@/assets/images/templated-looking.png" alt="">
     </div>
     <div class="flex justify-center flex-row rounded-b-lg w-full bg-[#FFFFFF]">
       <p>ATM Sports</p>
-      <button class="text-[#23A6F0] ml-20 mr-2.5">View Website</button><img src="../../assets/icone/vectorLurji.svg" alt="">
+      <button class="text-[#23A6F0] ml-20 mr-2.5">View Website</button><img src="@/assets/icone/vectorLurji.svg" alt="">
     </div>
   </div>
 </div>

@@ -7,17 +7,17 @@ const router = createRouter({
     {
       path: '/',
       name: 'Home',
-      component: () => import('../views/Pages/Home.vue')
+      component: () => import('@/views/Pages/Home.vue')
     },
     {
       path: '/ourwork',
       name: 'Ourwork',
-      component: () => import('../views/Pages/OurWork.vue')
+      component: () => import('@/views/Pages/OurWork.vue')
     },
     {
       path: '/contact',
       name: 'Contact',
-      component: () => import('../views/Pages/Contact.vue')
+      component: () => import('@/views/Pages/Contact.vue')
     },
     {
       path: '/services',
@@ -27,12 +27,12 @@ const router = createRouter({
         {
           path: 'custom',
           name: 'Custom',
-          component: () => import('../views/Pages/Custom.vue')
+          component: () => import('@/views/Pages/Custom.vue')
         },
         {
           path: 'templated',
           name: 'Templated',
-          component: () => import('../views/Pages/Templated.vue'),
+          component: () => import('@/views/Pages/Templated.vue'),
         
         }
       ]
@@ -40,12 +40,12 @@ const router = createRouter({
     {
       path: '/blog',
       name: 'Blog',
-      component: () => import('../views/Pages/Blog.vue'),
+      component: () => import('@/views/Pages/Blog.vue'),
       children: [
         {
           path: ':id',
           name: 'BlogIner',
-          component: () => import('../views/Pages/BlogIner.vue')
+          component: () => import('@/views/Pages/BlogIner.vue')
         }
       ]
     }
