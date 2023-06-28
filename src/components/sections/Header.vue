@@ -15,7 +15,6 @@ import { RouterLink } from 'vue-router';
                 <RouterLink to="/ourwork"> <button>Out Work</button></RouterLink>
                 <RouterLink to="/blog"> <button>Blog</button></RouterLink>
             </div>
-
         </div>
         <RouterLink to="/contact">
             <div class="flex flex-row my-4 bg-yellow-400 h-10  rounded-full mr-9 ">
