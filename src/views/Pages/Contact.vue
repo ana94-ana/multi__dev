@@ -18,12 +18,12 @@ import mainLayout from '../../layouts/mainLayout.vue';
           <p class="text-[#6967CE] text-lg">READY TO GET STARTED?</p>
           <h1 class="text-4xl">Let’s Grow Together.</h1>
         </div>
-        <div class="flex flex-col mx-5 w-auto space-y-4  md:mx-20 md:space-x-4 md:flex-row">
+        <div class="flex flex-col mx-5 w-auto space-y-4 md:space-y-0 md:mx-20 md:space-x-4 md:flex-row">
           <input class=" rounded w-full h-14 bg-[#F4F8FB] text-gray-700"  type="text" placeholder=" Name*">
           <input class=" rounded w-full h-14 text-gray-700 bg-[#F4F8FB] "  type="Email"
             placeholder=" Email*">
         </div>
-        <div class="flex flex-col mx-5 space-y-4 w-auto md:mx-20 md:space-x-4  md:flex-row ">
+        <div class="flex flex-col mx-5 space-y-4 w-auto md:space-y-0 md:mx-20 md:space-x-4  md:flex-row ">
           <input class=" rounded w-full h-14 text-gray-700 bg-[#F4F8FB]"  type="text" placeholder=" Company Name*">
           <input class="rounded w-full h-14 text-gray-700 bg-[#F4F8FB] "  type="" placeholder=" Website URL">
         </div>
