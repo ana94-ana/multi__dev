@@ -7,12 +7,11 @@ import { RouterLink } from 'vue-router';
             <img src="@/assets/images/Isolation_Mode.svg">
         </div>
         <div class="flex w-auto my-6 ">
-            <div class="flex flex-row justify-center space-x-10  ">
+            <div class="flex flex-row justify-center mx-auto space-x-10  ">
                 <RouterLink to="/"> <button>Home</button></RouterLink>
-                <button class="flex flex-row items-center">Servises<img src="@/assets/images/qvedaisari.svg"
-                        class="mx-2.5" />
+                <button class="flex flex-row ">Servises<img src="@/assets/images/qvedaisari.svg"
+                        class=" mx-2.5 mt-2.5" />
                 </button>
-
                 <RouterLink to="/ourwork"> <button>Out Work</button></RouterLink>
                 <RouterLink to="/blog"> <button>Blog</button></RouterLink>
             </div>
