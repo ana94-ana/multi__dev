@@ -1,25 +1,24 @@
+<script setup>
+import homeOne  from '../composables/homeOne.js'
+
+const {homeOneSection} = homeOne()
+
+</script>
 <template>
     <div class="flex items-center flex-col  bg-indigo-600/75">
         <div class="mt-20"><img src="@/assets/images/raiting.svg" /></div>
         <div class="flex flex-col mx-auto items-center">
-            <h1 class=" mx-auto text-6xl text-center font-bold my-6 md:w-2/3">We Design & Develop Websites That
-                Deliver
-                Results
+            <h1 class=" mx-auto text-6xl text-center font-bold my-6 md:w-2/3">{{ homeOneSection.title }}
             </h1>
-            <p class=" mx-auto text-2xl text-center md:w-1/2 ">Our goal is to develop simple and modern websites
-                that are
-                optimized
-                for both search
-                engines and user
-                experience, ultimately driving more traffic and revenue to your business.</p>
+            <p class=" mx-auto text-2xl text-center md:w-1/2 ">{{ homeOneSection.description }}</p>
         </div>
         <div class="flex mx-auto my-6 flex-row ">
             <div class="flex my-4 bg-yellow-400 h-10  rounded-full mr-9 ">
-                <button class="flex items-center w-32 justify-center ">Let's Talk </button>
+                <button class="flex items-center w-32 justify-center ">{{ homeOneSection.button }}</button>
                 <div class="flex items-center w-8"> <img src="@/assets/images/isari.svg" /></div>
             </div>
             <div class="flex flex-row my-4 border border-zinc-300 text-white rounded-full mr-9 ">
-                <button class="flex items-center w-32 justify-center ">Let's Talk </button>
+                <button class="flex items-center w-32 justify-center ">{{ homeOneSection.button }}</button>
                 <div class="flex items-center w-8"> <img src="@/assets/images/isari.svg" /></div>
             </div>
         </div>

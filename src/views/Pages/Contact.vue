@@ -2,8 +2,9 @@
 import mainLayout from '@/layouts/mainLayout.vue';
 import SectionOne from '@/components/contact/SectionOne.vue';
 import Inputs from '@/components/contact/inputs.vue'
-</script>
 
+
+</script>
 <template>
   <mainLayout>
     <div>
