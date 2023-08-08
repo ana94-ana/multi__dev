@@ -6,6 +6,6 @@ import clippathgroup from '@/assets/logo/Clippathgroup.svg'
 
 export default function technologies(){
     return {
-        icone:[figma, wordpres, woo, cubs, clippathgroup ]
+        icone:{figma, wordpres, woo, cubs, clippathgroup }
     }
 }

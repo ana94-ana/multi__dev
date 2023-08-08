@@ -4,7 +4,7 @@ import pages from '@/assets/images/improve-your-website-copy-1.png.png'
 
 export default function reseptPost(){
     return {
-        image:[program, settings, pages],
+        image:{program, settings, pages},
         descriptions:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, quas quisquam facilis exercitationem commodi voluptas nisi tenetur illum itaque alquid vero ut animi a eveniet expedita dolor nulla ad aspernatur."
     }
 }

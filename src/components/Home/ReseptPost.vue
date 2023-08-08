@@ -1,6 +1,6 @@
 <script setup>
-import reseptPost from '@/composables/reseptPost';
-import Buttons from '@/button/Buttons.vue'
+import reseptPost from '../composables/reseptPost'
+import Buttons from '../button/Buttons.vue'
 const {image, descriptions}= reseptPost()
 </script>
 
