@@ -2,7 +2,7 @@ import women from '@/assets/images/womenAvatar.svg'
 import men from '@/assets/images/menAvatar.svg'
 import girl from '@/assets/images/girlavatar.svg'
 //import { ref } from 'vue'
-import axios from 'axios'
+//import axios from 'axios'
 
 export default function carousel() {
     return {
