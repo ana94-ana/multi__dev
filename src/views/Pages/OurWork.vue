@@ -1,7 +1,7 @@
 <script setup>
 import mainLayout from '@/layouts/mainLayout.vue';
 import SectionOne from '@/components/ourWork/SectionOne.vue';
-import CorewoodCards from '@/components/ourWork/corewoodCards.vue'
+import CorewoodCards from '@/components/ourWork/CorewoodCards.vue'
 import ProductionsCard from '@/components/ourWork/ProductionsCard.vue'
 import LivingCard from '@/components/ourWork/LivingCard.vue'
 import StreetCard from '@/components/ourWork/StreetCard.vue'
