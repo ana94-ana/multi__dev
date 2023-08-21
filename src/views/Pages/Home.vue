@@ -1,6 +1,6 @@
 <script setup>
 import mainLayout from '@/layouts/mainLayout.vue'
-import SectionHero from '@/components/Home/sectionHero.vue'
+import SectionHero from '@/components/Home/SectionHero.vue'
 import SectionCustom from '@/components/Home/SectionCustom.vue'
 import TechnologiesIcones from '@/components/icons/TechnologiesIcones.vue'
 import Carousel from '@/components/carousel/Carousel.vue'

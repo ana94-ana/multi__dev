@@ -5,7 +5,7 @@ import TimeAndMoney from '@/components/templated/TimeAndMoney.vue'
 import SectionCards from '@/components/templated/SectionCards.vue'
 import Afordable from '@/components/templated/Afordable.vue'
 import ProjectImage from '@/components/templated/ProjectImage.vue'
-import TemplatedEnd from '@/components/templated/templateEnd.vue'
+import TemplatedEnd from '../../components/templated/TemplateEnd.vue'
 </script>
 
 <template>

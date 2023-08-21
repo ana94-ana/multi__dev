@@ -1,7 +1,7 @@
 <script setup>
 import mainLayout from '@/layouts/mainLayout.vue';
 import SectionOne from '@/components/contact/SectionOne.vue';
-import Inputs from '@/components/contact/inputs.vue'
+import Inputs from '@/components/contact/Inputs.vue'
 
 
 </script>
