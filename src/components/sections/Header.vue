@@ -9,8 +9,8 @@ import { RouterLink } from 'vue-router';
         <div class="flex w-auto my-6 ">
             <div class="flex flex-row justify-center mx-auto space-x-10  ">
                 <RouterLink to="/"> <button>Home</button></RouterLink>
-                <button class="flex flex-row ">Servises<img src="@/assets/images/qvedaisari.svg"
-                        class=" mx-2.5 mt-2.5" />
+                <button class="flex flex-row ">Services <RouterLink to="/services/custom"><button><img src="@/assets/images/qvedaisari.svg"
+                        class=" mx-2.5 mt-2.5" /></button></RouterLink>
                 </button>
                 <RouterLink to="/ourwork"> <button>Out Work</button></RouterLink>
                 <RouterLink to="/blog"> <button>Blog</button></RouterLink>

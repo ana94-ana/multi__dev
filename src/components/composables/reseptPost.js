@@ -3,7 +3,7 @@ import settings from '@/assets/images/improve-your-website-copy-1.png.png'
 import pages from '@/assets/images/improve-your-website-copy-1.png.png'
 import axios from 'axios'
 //import { ref } from 'vue'
-//import axios from 'axios'
+//import axios from '@/interceptors/axios'
 
 export default function reseptPost(){
     return {

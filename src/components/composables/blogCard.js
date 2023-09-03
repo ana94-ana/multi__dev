@@ -6,7 +6,7 @@ import way from '@/assets/images/way.png'
 import splash from '@/assets/images/splash.png'
 import yourwebsite from '@/assets/images/yourwebsite.png'
 import flebsbox from '@/assets/images/flebsbox.png'
-//import axios from 'axios'
+//import axios from '@/interceptors/axios'
 //import { ref } from 'vue'
 
 

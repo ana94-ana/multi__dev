@@ -1,7 +1,7 @@
 //import { ref } from "vue"
 import custom from '@/assets/images/custom.icon.svg'
 import search from '@/assets/images/search.icon.svg'
-//import axios from "axios"
+//import axios from '@/interceptors/axios'
 
 export default function homeCustom() {
 

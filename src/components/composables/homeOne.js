@@ -1,5 +1,5 @@
 //import { ref } from "vue"
-//import axios from 'axios'
+//import axios from '@/interceptors/axios'
 import logoAegiLiving from '@/assets/images/aegisliving.svg'
 import logoProduction from '@/assets/images/KOJIMA-PRODUCTIONS-.svg'
 import logoDoctor from '@/assets/images/doctor-butlers.svg.svg'
