@@ -1,8 +1,8 @@
 import axios from "axios";
-axios.defaults.baseURL = "https://gmt.javal.ge/wp-json/custom/v1"
+axios.defaults.baseURL = "http://multidevadmin.laradevtest.com"
 
 axios.interceptors.request.use(function(config){
-    config.url += '/en'
+    config.url += ''
     return config
 }, function(error){return Promise.reject(error)}
 )

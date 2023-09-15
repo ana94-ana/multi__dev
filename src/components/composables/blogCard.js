@@ -1,38 +1,39 @@
-import featured from '@/assets/images/a.post-featured-image.png'
-import landing from '@/assets/images/0Landingdiv.row.png'
-import design from '@/assets/images/designcompany.png'
-import create from '@/assets/images/create.png'
-import way from '@/assets/images/way.png'
-import splash from '@/assets/images/splash.png'
-import yourwebsite from '@/assets/images/yourwebsite.png'
-import flebsbox from '@/assets/images/flebsbox.png'
-//import axios from '@/interceptors/axios'
-//import { ref } from 'vue'
+import axios from '@/interceptors/axios'
+import { ref } from 'vue'
 
 
-export default function blogCard() {
-    return {
+export default (function blogCard() {
+   /* return {
         image: { featured, landing, design, create, way, splash, yourwebsite, flebsbox },
         title: 'Custom WordPress Development: A Comprehensive Guide',
         description: 'Should you use a WordPress Theme or go with Custom WordPress Development from scratch? It all depends on your business goals.',
         dataTime: 'Nick Meagher | May 11, 2023'
 
-    }
+    }*/
 
-   /* const image = ref({})
+    const id=ref()
+    const avatar = ref()
     const title = ref()
     const description = ref()
-    const dataTime = ref()
+    const url = ref()
 
 
     const getBlogCard = async () => {
-        const { data } = await axios.get('')
+        let { data } = await axios.get('/api/projects')
 
-        image.value = data.image
+        id.value=data.id
+        avatar.value = data.avatar
         title.value = data.title
         description.value = data.description
-        dataTime.value = data.dataTime
+        url.value = data.url
     }
-    return { getBlogCard }  */
 
-}
+        
+
+	let instance = { avatar, title, description, url, getBlogCard }      
+
+	return () => {
+		return instance
+	}
+
+})()
