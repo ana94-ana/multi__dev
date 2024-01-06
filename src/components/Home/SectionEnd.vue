@@ -1,4 +1,5 @@
 <template>
+    <!--
     <div class="flex items-center mx-4 py-4 flex-col  bg-indigo-600/75  rounded-lg md:mx-auto md:w-3/4">
         <div class="flex items-center flex-col  text-center md:w-1/2">
             <h2 class="text-4xl text-white"> Want to see if Icepick is the right fit for you? </h2>
@@ -10,4 +11,5 @@
             <div class="flex items-center w-8"> <img src="@/assets/images/isari.svg" /></div>
         </div>
     </div>
+    -->
 </template>

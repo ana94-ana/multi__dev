@@ -1,10 +1,11 @@
 <script setup>
-import reseptPost from '../composables/reseptPost'
+/*import reseptPost from '../composables/reseptPost'
 import Buttons from '../button/Buttons.vue'
-const {image, descriptions}= reseptPost()
+const {image, descriptions}= reseptPost()*/
 </script>
 
 <template>
+    <!--
     <div class="flex flex-col w-3/4 mx-auto items-center">
         <h1 class="text-center">recent posts</h1>
 
@@ -20,5 +21,5 @@ const {image, descriptions}= reseptPost()
             </div>
             </div>
         </div>
-    </div>
+    </div>-->
 </template>

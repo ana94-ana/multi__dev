@@ -1,10 +1,11 @@
 <script setup>
-import homeCustom from '../composables/homeCustom.js'
+/*import homeCustom from '../composables/homeCustom.js'
 
 const { title, icone, description } = homeCustom()
-
+*/
 </script>
 <template>
+    <!--
     <div class="flex mx-5  text-center  flex-col space-y-5 md:mx-auto md:w-1/4 ">
         <h1 class="text-2xl font-bold" v-text="title" />
         <p class="break-all" v-text="description" />
@@ -25,4 +26,5 @@ const { title, icone, description } = homeCustom()
         <hr class="  mx-auto my-8 bg-gray-200 md:h-36 md:w-1 ">
 
     </div>
+    -->
 </template>

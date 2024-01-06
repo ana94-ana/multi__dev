@@ -1,10 +1,11 @@
 <script setup>
-import homeOne  from '../composables/homeOne.js'
+/*import homeOne  from '../composables/homeOne.js'
 
 const {title, description, logo} = homeOne()
-
+*/
 </script>
 <template>
+    <!--
     <div class="flex items-center flex-col  bg-indigo-600/75">
         <div class="mt-20"><img src="@/assets/images/raiting.svg" /></div>
         <div class="flex flex-col mx-auto items-center">
@@ -33,4 +34,5 @@ const {title, description, logo} = homeOne()
             </div>
         </div>
     </div>
+    -->
 </template>

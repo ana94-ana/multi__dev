@@ -1,4 +1,5 @@
 <template>
+    <!--
     <div class="bg-indigo-600/75 py-5 space-y-10">
         <h1 class="flex justify-center mx-auto text-4xl font-medium">Recent Projects</h1>
         <div class="justify-center  mx-4 space-y-7 md:mx-auto md:columns-2 md:w-3/4 ">
@@ -19,5 +20,6 @@
             <button class="flex items-center mx-auto w-32 justify-center ">Let's Talk </button>
             <div class="flex items-center w-8"> <img src="@/assets/images/isari.svg" /></div>
         </div>
-    </div>
+    </div> 
+    -->
 </template>
