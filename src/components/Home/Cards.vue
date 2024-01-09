@@ -1,4 +1,7 @@
 <script setup>
+import cards from '../composables/cards';
+
+const {title, price, image, icone}=cards()
 
 </script>
 <template>
@@ -6,65 +9,65 @@
     <div class="flex flex-row space-x-10 mx-10"> 
         <div class="flex flex-col w-auto ">
             <div>
-                <img src="@/assets/galery/image/monaliza.png" alt="">
+                <img :src="image.monaliza" alt="">
             </div>
             <div class="flex flex-row justify-between ">
                 <div class="space-y-3 my-3 text-xl">
-                    <h3>მონა ლიზა</h3>
-                    <h3>5000$</h3>
+                    <h3 v-text="title"/>
+                    <h3 v-text="price"/>
                     <button class="bg-[#1C5178] w-32 h-11">ყიდვა</button>
                 </div>
                 <div class="space-y-3 my-3">
-                    <img src="@/assets/icone/love.svg" alt="">
-                    <img src="../../assets//icone/love.svg" alt="">
+                    <img :src="icone.love"/>
+                    <img :src="icone.kalata"/>
                 </div>
             </div>
         </div>
         <div class="flex flex-col w-auto ">
             <div>
-                <img src="../../assets/galery/image/qalbatoniErminit.png" alt="">
+                <img :src="image.erminit" alt=""/>
             </div>
             <div class="flex flex-row justify-between ">
                 <div class="space-y-3 my-3 text-xl">
-                    <h3>ქალბატონი ერმინით</h3>
-                    <h3>5000$</h3>
+                    <h3 v-text="title"/>
+                    <h3 v-text="price"/>
                     <button class="bg-[#1C5178] w-32 h-11">ყიდვა</button>
                 </div>
                 <div class="space-y-3 my-3">
-                    <img src="../../assets/icone/love.svg" alt="">
-                    <img src="../../assets/icone/love.svg" alt="">
+                    <img :src="icone.love"/>
+                    <img :src="icone.kalata"/>
                 </div>
             </div>
         </div>
         <div class="flex flex-col w-auto ">
             <div>
-                <img src="../../assets/galery/image/salvator.png" alt="">
+                <img :src="image.salvator" alt=""/>
             </div>
             <div class="flex flex-row justify-between ">
                 <div class="space-y-3 my-3 text-xl">
-                    <h3>სალვატორ მუნდი</h3>
-                    <h3>5000$</h3>
+                    <h3 v-text="title"/>
+                    <h3 v-text="price"/>
                     <button class="bg-[#1C5178] w-32 h-11">ყიდვა</button>
                 </div>
                 <div class="space-y-3 my-3">
-                    <img src="../../assets/icone/love.svg" alt="">
-                    <img src="../../assets/icone/love.svg" alt="">
+                    <img :src="icone.love"/>
+                    <img :src="icone.kalata"/>
                 </div>
             </div>
         </div>
         <div class="flex flex-col w-auto ">
             <div>
-                <img src="../../assets/galery/image/mixakisMadona.png" alt="">
+                <img :src="image.madona" alt="">
             </div>
             <div class="flex flex-row justify-between ">
                 <div class="space-y-3 my-3 text-xl">
-                    <h3>მიხაკის მადონა</h3>
-                    <h3>5000$</h3>
+                    <h3 v-text="title"/>
+                    <h3 v-text="price"/>
                     <button class="bg-[#1C5178] w-32 h-11">ყიდვა</button>
                 </div>
                 <div class="space-y-3 my-3">
-                    <img src="../../assets/icone/love.svg" alt="">
-                    <img src="../../assets/icone/love.svg" alt="">
+                    <img :src="icone.love"/>
+                    <img :src="icone.kalata"/>
                 </div>
             </div>
         </div>
