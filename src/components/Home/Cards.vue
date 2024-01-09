@@ -15,7 +15,7 @@ const {title, price, image, icone}=cards()
                 <div class="space-y-3 my-3 text-xl">
                     <h3 v-text="title"/>
                     <h3 v-text="price"/>
-                    <button class="bg-[#1C5178] w-32 h-11">ყიდვა</button>
+                    <button class="bg-[#1C5178] w-32 h-11 text-[#FFFFFF]">ყიდვა</button>
                 </div>
                 <div class="space-y-3 my-3">
                     <img :src="icone.love"/>
@@ -31,7 +31,7 @@ const {title, price, image, icone}=cards()
                 <div class="space-y-3 my-3 text-xl">
                     <h3 v-text="title"/>
                     <h3 v-text="price"/>
-                    <button class="bg-[#1C5178] w-32 h-11">ყიდვა</button>
+                    <button class="bg-[#1C5178] w-32 h-11 text-[#FFFFFF]">ყიდვა</button>
                 </div>
                 <div class="space-y-3 my-3">
                     <img :src="icone.love"/>
@@ -47,7 +47,7 @@ const {title, price, image, icone}=cards()
                 <div class="space-y-3 my-3 text-xl">
                     <h3 v-text="title"/>
                     <h3 v-text="price"/>
-                    <button class="bg-[#1C5178] w-32 h-11">ყიდვა</button>
+                    <button class="bg-[#1C5178] w-32 h-11 text-[#FFFFFF]">ყიდვა</button>
                 </div>
                 <div class="space-y-3 my-3">
                     <img :src="icone.love"/>
@@ -63,7 +63,7 @@ const {title, price, image, icone}=cards()
                 <div class="space-y-3 my-3 text-xl">
                     <h3 v-text="title"/>
                     <h3 v-text="price"/>
-                    <button class="bg-[#1C5178] w-32 h-11">ყიდვა</button>
+                    <button class="bg-[#1C5178] w-32 h-11 text-[#FFFFFF]">ყიდვა</button>
                 </div>
                 <div class="space-y-3 my-3">
                     <img :src="icone.love"/>
