@@ -1,8 +1,8 @@
 export default function payment(){
 
     return{
-        name: 'ucnobi',
-        lastName: 'nacnobi',
+        name: 'სახელი,',
+        lastName: 'გვარი',
         cardsNumber:'52******4321'
     }
     
