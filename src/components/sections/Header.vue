@@ -2,18 +2,31 @@
 import { RouterLink } from 'vue-router';
 </script>
 <template>
-    <div class="flex  my-10  ">
-       <div class="flex mx-auto justify-start w-auto ml-9">
-           <RouterLink to="/">საიტის ლოგო</RouterLink>
-           </div>
-            <div class=" flex-row justify-end  mx-auto  space-x-10 mx-9 lg:flex ">
-                <RouterLink to="/"> <button>მთავარი</button></RouterLink>
-                <RouterLink to="/ourwork"> <button>გალერეა</button></RouterLink>
-                <RouterLink to="/blog"> <button>მხატვრის შესახებ</button></RouterLink>
-                <RouterLink to="/blog"> <button>კონტაქტი</button></RouterLink>
-                <RouterLink to="/blog"> <button class="text-[#1C5178]" >შესვლა</button></RouterLink>
-            </div>
-            
-    </div>
-    
-</template>
+    <div class="flex  my-10 h-8 ">
+        <div class="flex mx-auto  w-auto ml-9 ">
+
+            <RouterLink to="/">საიტის ლოგო</RouterLink>
+        </div>
+        <div class=" hidden flex-row mx-auto border-b border-[#000000] space-x-10 lg:flex justify-end mx-auto">
+            <RouterLink to="/"> <button class="hover:text-[#000000]">მთავარი</button></RouterLink>
+            <RouterLink to="/ourwork"> <button>გალერეა</button></RouterLink>
+            <RouterLink to="/blog"> <button>მხატვრის შესახებ</button></RouterLink>
+            <RouterLink to="/blog"> <button>კონტაქტი</button></RouterLink>
+        </div>
+        <RouterLink to="/blog"> <button class="hidden text-[#1C5178] font-bold mr-20 lg:flex">შესვლა</button></RouterLink>
+        <button data-collapse-toggle="mobile-menu-2" type="button"
+            class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="mobile-menu-2" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                    clip-rule="evenodd"></path>
+        </svg>
+        <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+        </svg>
+    </button>
+</div></template>
