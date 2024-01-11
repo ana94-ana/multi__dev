@@ -6,7 +6,7 @@ import { RouterLink } from 'vue-router';
        <div class="flex mx-auto justify-start w-auto ml-9">
            <RouterLink to="/">საიტის ლოგო</RouterLink>
            </div>
-            <div class="flex flex-row justify-end  mx-auto  space-x-10 mx-9  ">
+            <div class=" flex-row justify-end  mx-auto  space-x-10 mx-9 lg:flex ">
                 <RouterLink to="/"> <button>მთავარი</button></RouterLink>
                 <RouterLink to="/ourwork"> <button>გალერეა</button></RouterLink>
                 <RouterLink to="/blog"> <button>მხატვრის შესახებ</button></RouterLink>

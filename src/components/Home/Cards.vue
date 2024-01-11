@@ -1,14 +1,15 @@
 <script setup>
 import cards from '../composables/cards';
+import CarouselCards from './CarouselCards.vue';
 
 const { title, price, image, icone } = cards()
 
 </script>
 <template>
     <h1 class="text-center font-semibold text-6xl">გალერეა</h1>
-   
-    <div class="flex flex-row space-x-10 mx-10 flex-row"> 
-        <div ><img class="lg:hidden" src="../../assets//icone/isariMarcxniv.svg" alt=""></div>
+    <CarouselCards/>
+   <div class="hidden lg:flex flex-col ">
+    <div class=" flex flex-row space-x-10 mx-10 flex-row "> 
         <div class="flex flex-col w-auto ">
             <div>
                 <img :src="image.monaliza" alt="">
@@ -73,12 +74,12 @@ const { title, price, image, icone } = cards()
                 </div>
             </div>
         </div>
-        <div> <img class="lg:hidden"  src="../../assets/icone/isariMarjvniv.svg" alt=""></div>
 
     </div>
-    <div class="flex flex-row justify-center space-x-5">
+    <div class=" flex flex-row my-10 justify-center space-x-5">
         <hr class="w-12 h-1 mt-3 bg-[#000000]">
         <h3>მეტის ნახვა</h3>
         <hr class="w-12 h-1 mt-3  bg-[#000000]">
+    </div>
     </div>
 </template>
