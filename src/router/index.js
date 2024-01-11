@@ -9,6 +9,16 @@ const router = createRouter({
       name: 'Home',
       component: () => import('@/views/Pages/Home.vue')
     },
+    {
+      path: '/galerea',
+      name: 'Galerea',
+      component: () => import('@/views/Pages/Galerea.vue')
+    },
+    {
+      path: '/gadaxda',
+      name: 'Gadaxda',
+      component: () => import('@/views/Pages/Gadaxda.vue')
+    },
     
   ]
 })

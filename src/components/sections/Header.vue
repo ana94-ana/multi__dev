@@ -9,11 +9,11 @@ import { RouterLink } from 'vue-router';
         </div>
         <div class=" hidden flex-row mx-auto border-b border-[#000000] space-x-10 lg:flex justify-end mx-auto">
             <RouterLink to="/"> <button class="hover:text-[#000000]">მთავარი</button></RouterLink>
-            <RouterLink to="/ourwork"> <button>გალერეა</button></RouterLink>
+            <RouterLink to="/galerea"> <button>გალერეა</button></RouterLink>
             <RouterLink to="/blog"> <button>მხატვრის შესახებ</button></RouterLink>
             <RouterLink to="/blog"> <button>კონტაქტი</button></RouterLink>
         </div>
-        <RouterLink to="/blog"> <button class="hidden text-[#1C5178] font-bold mr-20 lg:flex">შესვლა</button></RouterLink>
+        <RouterLink to="/gadaxda"> <button class="hidden text-[#1C5178] font-bold mr-20 lg:flex">შესვლა</button></RouterLink>
         <button data-collapse-toggle="mobile-menu-2" type="button"
             class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="mobile-menu-2" aria-expanded="false">
