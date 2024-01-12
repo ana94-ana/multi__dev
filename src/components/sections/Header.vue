@@ -10,8 +10,8 @@ import { RouterLink } from 'vue-router';
         <div class=" hidden flex-row mx-auto border-b border-[#000000] space-x-10 lg:flex justify-end mx-auto">
             <RouterLink to="/"> <button class="hover:text-[#000000]">მთავარი</button></RouterLink>
             <RouterLink to="/galerea"> <button>გალერეა</button></RouterLink>
-            <RouterLink to="/blog"> <button>მხატვრის შესახებ</button></RouterLink>
-            <RouterLink to="/blog"> <button>კონტაქტი</button></RouterLink>
+            <RouterLink to=""> <button>მხატვრის შესახებ</button></RouterLink>
+            <RouterLink to=""> <button>კონტაქტი</button></RouterLink>
         </div>
         <RouterLink to="/gadaxda"> <button class="hidden text-[#1C5178] font-bold mr-20 lg:flex">შესვლა</button></RouterLink>
         <button data-collapse-toggle="mobile-menu-2" type="button"

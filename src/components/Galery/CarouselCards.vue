@@ -1,4 +1,3 @@
-
 <script setup>
 import cards from '../composables/cards';
 
